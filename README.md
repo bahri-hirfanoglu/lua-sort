@@ -41,3 +41,11 @@ print("Quick Sort: ",table.concat(Sort.Quick(array,1,tonumber(length),true)," - 
 print("Quick Sort: ",table.concat(Sort.Quick(array,1,tonumber(length),false)," - "))
 --Output Quick Sort:  744 - 16 - 6 - 5 - 3
 ```
+> **Tests used 500,000-element array.**  
+
+Algorithm | Sequential Array (ms) | Rev. Sequential Array (ms) | Rnd. Sequential (ms)
+------------- | ------------- | ------------- | -------------
+Selection Sort  | 583334 | 511961 | 516530
+Insertion Sort  | 10 | 407946 | 234287
+Bubble Sort | 10 | 1536317 | 2062972
+Quick Sort | 60 | 90 | 160
