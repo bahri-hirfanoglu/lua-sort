@@ -32,7 +32,7 @@ print("Insertion Sort: ",table.concat(Sort.Insertion(array,false)," - "))
 --Output Insertion Sort:  744 - 16 - 6 - 5 - 3
 ```
 * <b>Quick Sort</b> <br>
-selects a pivot value near the middle of the array and shifts values ​​greater than the pivot to the right and values ​​less than the pivot to the left. After doing this process, it selects pivot values ​​separately from the arrays to the left and right of the pivot value and subjects those arrays to this process again. After this process continues recursively, the entire array will be sorted.
+Selects a pivot value near the middle of the array and shifts values ​​greater than the pivot to the right and values ​​less than the pivot to the left. After doing this process, it selects pivot values ​​separately from the arrays to the left and right of the pivot value and subjects those arrays to this process again. After this process continues recursively, the entire array will be sorted.
 ```ruby
 local length = #array
 print("Quick Sort: ",table.concat(Sort.Quick(array,1,tonumber(length),true)," - "))
